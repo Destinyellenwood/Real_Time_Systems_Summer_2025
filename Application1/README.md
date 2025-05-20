@@ -61,17 +61,22 @@ Both tasks run independently using **FreeRTOS**, which ensures the LED blinks on
 
 ## 🧪 How to Run
 
-1. Open the project in Wokwi or PlatformIO (ESP32 board with FreeRTOS)
-2. Connect the LED to **GPIO4**
-3. View the LED blinking every 250 ms
-4. Watch the serial console print:
+1. Go to https://wokwi.com and start a new ESP32 Project.
+2. In the new project:
+    Replace the default main.c with the code from:
+    Application1/main.c
+3. Create or replace the diagram.json file with the hardware layout from:
+    Application1/diagram.json
+    - Make sure it connects an LED to GPIO 4 as used in the code.
+4. (Optional) Add wokwi.toml to configure simulation settings:
+    Application1/wokwi.toml
+5. Click the green “Start Simulation” ▶️ button in Wokwi.
+
+6. Watch the serial console print:
    - Telemetry packets every 10 seconds
    - Beacon ON/OFF status with precise timing info
 
 ---
 
-## 🔗 Link to Code
-
-[View on GitHub » Application 1 Folder](https://github.com/Destinyellenwood/Real_Time_Systems_Summer_2025/tree/main/Application1)
 
 
