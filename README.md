@@ -5,7 +5,6 @@
 **Course:** EEE4775 – Real-Time Systems  
 **Semester:** Summer 2025  
 **Platform:** ESP32 + FreeRTOS (simulated in Wokwi and built in PlatformIO)  
-**AI Use:** ChatGPT was used for code annotation, implementation planning, and project documentation refinement.
 
 ---
 
