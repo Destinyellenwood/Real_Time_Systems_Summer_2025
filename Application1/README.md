@@ -9,7 +9,7 @@
 
 ---
 
-## 🌟 Overview
+##  Overview
 
 This application simulates a **real-time system on a satellite**, where:
 
@@ -20,9 +20,9 @@ Both tasks run independently using **FreeRTOS**, which ensures the LED blinks on
 
 ---
 
-## 🔧 Implementation Details
+##  Implementation Details
 
-### ✅ `satellite_beacon_task`
+###  `satellite_beacon_task`
 - Runs at **2 Hz** → LED ON/OFF every 250 ms
 - Uses `xTaskGetTickCount()` and `portTICK_PERIOD_MS` to measure the exact time between toggles
 - Logs:
@@ -30,18 +30,18 @@ Both tasks run independently using **FreeRTOS**, which ensures the LED blinks on
   - Timestamp
   - Elapsed time since last toggle (i.e., period)
 
-### ✅ `telemetry_task`
+###  `telemetry_task`
 - Runs every **10 seconds** (0.1 Hz)
 - Prints a telemetry packet ID and system timestamp
 - Runs with `vTaskDelay(pdMS_TO_TICKS(10000))`
 
-### ✅ `app_main`
+###  `app_main`
 - Sets up GPIO4 as the beacon LED output pin
 - Creates both tasks with equal priority (1)
 
 ---
 
-## 🧠 Real-Time Design Principles Used
+##  Real-Time Design Principles Used
 
 - **Multitasking:** Each task has its own timing and does not block the other.
 - **vTaskDelay:** Ensures tasks yield control to the scheduler, maintaining proper CPU usage.
@@ -49,7 +49,7 @@ Both tasks run independently using **FreeRTOS**, which ensures the LED blinks on
 
 ---
 
-## ✅ Bonus Challenges Completed
+##  Bonus Challenges Completed
 
 | Challenge        | Description                                                   | Done |
 |------------------|---------------------------------------------------------------|------|
@@ -59,7 +59,7 @@ Both tasks run independently using **FreeRTOS**, which ensures the LED blinks on
 
 ---
 
-## 🧪 How to Run
+##  How to Run
 
 1. Go to https://wokwi.com and start a new ESP32 Project.
 2. In the new project:
@@ -67,7 +67,7 @@ Both tasks run independently using **FreeRTOS**, which ensures the LED blinks on
 3. Create or replace the `diagram.json` file with the layout from: [Application1/diagram.json](./Application1/diagram.json)
     - Make sure it connects an LED to GPIO 4 as used in the code.
 4. (Optional) Add the simulator config from: [Application1/wokwi.toml](./Application1/wokwi.toml)
-5. Click the green “Start Simulation” ▶️ button in Wokwi.
+5. Click the green “Start Simulation” ▶ button in Wokwi.
 
 6. Watch the serial console print:
    - Telemetry packets every 10 seconds
