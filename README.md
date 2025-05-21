@@ -1,4 +1,4 @@
-# 🕒 Real-Time Systems – Summer 2025
+# Real-Time Systems – Summer 2025
 
 **Student:** Destiny Ellenwood  
 **UCF ID:** 5276398  
@@ -8,7 +8,7 @@
 
 ---
 
-## 📁 Repository Overview
+## Repository Overview
 
 This repository contains my projects and applications developed for the Real-Time Systems course, using the **ESP32 microcontroller** and **FreeRTOS** for cooperative multitasking.
 
@@ -25,7 +25,7 @@ Each folder represents a standalone application with source code, simulation fil
 
 ---
 
-## ⚙️ Technologies Used
+## Technologies Used
 
 - **ESP32** (ESP-IDF)
 - **FreeRTOS** (Task creation, scheduling, `vTaskDelay`)
@@ -34,16 +34,13 @@ Each folder represents a standalone application with source code, simulation fil
 
 ---
 
-## 🧪 Running Projects in Wokwi
+## Running Projects in Wokwi
 
 Each application includes:
 - A `main.c` file with FreeRTOS tasks
 - A `diagram.json` defining the hardware layout
 - An optional `wokwi.toml` for simulation config
 
-You can open any folder in Wokwi by copying the files into a new project.
-
-> Example: [Run Application 1 in Wokwi](./Application1/README.md)
 
 ---
 
