@@ -20,8 +20,8 @@ Each folder represents a standalone application with source code, simulation fil
 
 | Week | Title & Theme | Folder | Description |
 |------|----------------|--------|-------------|
-| ✅ 1  | [Application 1 – Satellite Beacon & Telemetry](./Application1/) | `Application1/` | Simulates a satellite with a 2 Hz beacon LED and 10-second telemetry logging task. Bonus features include timing logs and task structuring. |
-| ⏳ 2+ | Coming Soon    | `Application2/`, etc. | Future labs will include task scheduling, input handling, synchronization, and timing constraints. |
+|  1  | [Application 1 – Satellite Beacon & Telemetry](./Application1/) | `Application1/` | Simulates a satellite with a 2 Hz beacon LED and 10-second telemetry logging task. Bonus features include timing logs and task structuring. |
+|  2  | Up next   |
 
 ---
 
