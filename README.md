@@ -16,7 +16,7 @@ Each folder represents a standalone application with source code, simulation fil
 
 ---
 
-## 🔗 Applications
+##  Applications
 
 | Week | Title & Theme | Folder | Description |
 |------|----------------|--------|-------------|
