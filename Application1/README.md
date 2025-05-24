@@ -49,16 +49,6 @@ Both tasks run independently using **FreeRTOS**, which ensures the LED blinks on
 
 ---
 
-##  Bonus Challenges Completed
-
-| Challenge        | Description                                                   | Done |
-|------------------|---------------------------------------------------------------|------|
-| Easy             | Logged timing for beacon task and changed LED color in Wokwi | ✅   |
-| Medium           | Renamed tasks/variables to match the space theme; used GPIO4  | ✅   |
-| Harder           | Logged actual period between executions for **both** tasks    | ✅   |
-
----
-
 ##  How to Run
 
 1. Go to https://wokwi.com and start a new ESP32 Project.
@@ -75,3 +65,4 @@ Both tasks run independently using **FreeRTOS**, which ensures the LED blinks on
 
 ---
 
+## 
