@@ -54,6 +54,6 @@ Both tasks run independently using **FreeRTOS**, which ensures the LED blinks on
 1. Here's my Wokwi link to Application 1:
 [(https://wokwi.com/projects/431794950353297409)]
 
+2. README.md file in Wokwi includes analysis/engineering section answers.
 ---
 
-## 
