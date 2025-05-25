@@ -3,8 +3,7 @@
 **Student:** Destiny Ellenwood  
 **UCF ID:** 5276398  
 **Course:** EEE4775 – Real-Time Systems  
-**Semester:** Summer 2025  
-**Platform:** ESP32 + FreeRTOS (simulated in Wokwi and built in PlatformIO)  
+**Semester:** Summer 2025   
 
 ---
 
