@@ -37,6 +37,7 @@ Each folder represents a standalone application with source code, simulation fil
 
 Each application includes:
 - A `main.c` file with FreeRTOS tasks
+- A `README.md` file explaining/answering questions
 - A `diagram.json` defining the hardware layout
 - An optional `wokwi.toml` for simulation config
 
