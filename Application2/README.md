@@ -52,24 +52,12 @@ This application enhances the satellite simulation by adding a **critical sensor
 
 ---
 
-## Bonus: Starvation Simulation
+## How to Run
 
-To simulate starvation, I removed the delay from the high-priority sensor task and inserted a busy loop. This prevented the lower-priority tasks from running:
-
-```c
-// vTaskDelayUntil(&lastWakeTime, periodTicks);
-/*
-for (volatile int i = 0; i < 100000000; ++i) {
-    // Simulated blocking computation (no yield)
-}
-*/
-
----
-
-##  How to Run
-
-1. Here's my Wokwi link to Application 1:
+1. Here's my Wokwi link to Application 2:
 [(https://wokwi.com/projects/432787867109849089)]
 
 2. README.md file in Wokwi includes analysis/engineering section answers.
+
+---
 
