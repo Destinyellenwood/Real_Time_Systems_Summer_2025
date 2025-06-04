@@ -9,7 +9,7 @@
 
 ---
 
-## 🛰️ Overview
+## Overview
 
 This application enhances the satellite simulation by adding a **critical sensor-monitoring task** that detects eclipse conditions. All three tasks run on **Core 1** of the ESP32 using **FreeRTOS**, allowing for clear observation of **priority-based preemption**.
 
@@ -19,7 +19,7 @@ This application enhances the satellite simulation by adding a **critical sensor
 
 ---
 
-## ⚙️ Implementation Details
+## Implementation Details
 
 ### `satellite_beacon_task`
 - Blinks LED every **500 ms** (1 Hz)
@@ -43,7 +43,7 @@ This application enhances the satellite simulation by adding a **critical sensor
 
 ---
 
-## 📐 Real-Time Design Principles Used
+## Real-Time Design Principles Used
 
 - **Preemptive Scheduling:** Sensor task interrupts lower-priority tasks on wake.
 - **vTaskDelay vs. vTaskDelayUntil:** Demonstrates drift vs. stable timing.
@@ -52,7 +52,7 @@ This application enhances the satellite simulation by adding a **critical sensor
 
 ---
 
-## 🧪 Bonus: Starvation Simulation
+## Bonus: Starvation Simulation
 
 To simulate starvation, I removed the delay from the high-priority sensor task and inserted a busy loop. This prevented the lower-priority tasks from running:
 
@@ -63,3 +63,7 @@ for (volatile int i = 0; i < 100000000; ++i) {
     // Simulated blocking computation (no yield)
 }
 */
+
+---
+
+
