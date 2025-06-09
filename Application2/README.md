@@ -5,7 +5,7 @@
 **Course:** Real-Time Systems – Summer 2025  
 **Theme:** Space Systems  
 **Application:** Week 2 – Rev2  
-**AI Use:** Used ChatGPT to help implement `vTaskDelayUntil`, verify sensor math, and simulate task starvation for bonus.
+**AI Use:** Used ChatGPT to help implement `vTaskDelayUntil`, verify sensor math, and check for errors.
 
 ---
 
